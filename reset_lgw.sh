@@ -31,6 +31,7 @@ iot_sk_init() {
 
     # write output for SX1301 reset
     echo "1" > /sys/class/gpio/gpio$IOT_SK_SX1301_RESET_PIN/value; WAIT_GPIO
+    sleep 1
     echo "0" > /sys/class/gpio/gpio$IOT_SK_SX1301_RESET_PIN/value; WAIT_GPIO
 
     # set GPIO 25 as input
