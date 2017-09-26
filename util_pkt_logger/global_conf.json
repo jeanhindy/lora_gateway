@@ -1,8 +1,13 @@
 {
 	"SX1301_conf": {
+		"lorawan_public": true,
+        	"clksrc": 1, /* radio_1 provides clock to concentrator */
 		"radio_0": {
 			"enable": true,
+			"type": "SX1255",
 			"freq": 433500000
+			"rssi_offset": -166.0,
+            		"tx_enable": false
 		},
 		"chan_multiSF_0": {
 			/* LoRa MAC channel, 125kHz, all SF, 433.2 MHz */
@@ -30,6 +35,6 @@
 		}
 	},
 	"gateway_conf": {
-		"gateway_ID": "AA555A0000000000"
+		"gateway_ID": "B827EBFFFEB024D9"
 	}
 }
