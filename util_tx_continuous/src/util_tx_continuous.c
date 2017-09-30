@@ -47,7 +47,7 @@ Maintainer: Matthieu Leurent
 #define TX_RF_CHAIN             0    /* TX only supported on radio A */
 #define DEFAULT_RSSI_OFFSET     0.0
 
-#define DEFAULT_FREQ_HZ         868e6
+#define DEFAULT_FREQ_HZ         433e6
 #define DEFAULT_DIGITAL_GAIN    0
 #define DEFAULT_DAC_GAIN        3
 #define DEFAULT_MIXER_GAIN      14
